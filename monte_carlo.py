@@ -11,7 +11,7 @@ r = np.random
 from matplotlib import pyplot as plt 
 import sys
 #%%
-path2helpers = "./ev-sampling/"
+path2helpers = "./cpo-sampling/"
 sys.path.append(path2helpers)
 from helpers import struc2, EA2vectors
 from helpers import get_proj, plot_a2_odf, plotS2point

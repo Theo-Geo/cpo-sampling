@@ -9,7 +9,7 @@ from matplotlib import pyplot as plt
 import sys
 
 #%%
-path2helpers = "./ev-sampling/"
+path2helpers = "./cpo-sampling/"
 sys.path.append(path2helpers)
 from helpers import struc2, EA2vectors, odf, get_lm, struc2coeff
 from helpers import plotS2point, cart2sph, get_proj
